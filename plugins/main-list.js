@@ -12,6 +12,11 @@ let m2 = `
 ┣  💟 grouplist
 ┣  💟 owner
 ┣  💟 script
+┣  💟 toanime
+┣  💟 qrcode
+┣  💟 readqr
+┣  💟 weather
+┣  💟 nowa
 ┣ ඬ⃟ 💎 _${usedPrefix}kick *<@tag>*_
 ┣ ඬ⃟ 💎 _${usedPrefix}promote *<@tag>*_
 ┣ ඬ⃟ 💎 _${usedPrefix}demote *<@tag>*_
@@ -39,10 +44,18 @@ let m2 = `
 ┣ ඬ⃟ 💵 _${usedPrefix}myns_
 ┣ ඬ⃟ 💵 _${usedPrefix}profile_
 ┣ ඬ⃟ 💵 _${usedPrefix}work_
+┣ ඬ⃟ 💵 _${usedPrefix}adventure_
+┣ ඬ⃟ 💵 _${usedPrefix}heal_
+┣ ඬ⃟ 💵 _${usedPrefix}dungeon_
+┣ ඬ⃟ 💵 _${usedPrefix}todiamond_
+┣ ඬ⃟ 💵 _${usedPrefix}tomoney_
+┣ ඬ⃟ 💵 _${usedPrefix}weekly_
+┣ ඬ⃟ 💵 _${usedPrefix}monthly_
 ┣ ඬ⃟ 💵 _${usedPrefix}mine_
 ┣ ඬ⃟ 💵 _${usedPrefix}mine_
 ┣ ඬ⃟ 💵 _${usedPrefix}buy_
-┣ ඬ⃟ 💵 _${usedPrefix}buyall_
+┣ ඬ⃟ 💵 _${usedPrefix}sell_
+┣ ඬ⃟ 💵 _${usedPrefix}todiamondall_
 ┣ ඬ⃟ 💵 _${usedPrefix}register_
 ┣ ඬ⃟ 💵 _${usedPrefix}rob <@tag>*_
 ┣ ඬ⃟ 💵 _${usedPrefix}transfer *<type> <amount> <@tag>*_

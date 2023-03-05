@@ -8,13 +8,21 @@ let handler = async (m, {conn, usedPrefix}) => {
 ┌───⊷ *BALANCE* ⊶
 ▢ *📌Number* : _@${who.split('@')[0]}_
 ▢ *💎Diamonds* : _${user.diamond}_
+▢ *💎Gold* : _${user.gold}_
+▢ *💎Rock* : _${user.rock}_
+▢ *💎Rank* : _${user.role}_
+▢ *💎Health* : _${user.health}_
+▢ *💎Wood* : _${user.wood}_
+▢ *💎Potions* : _${user.potion}_
+▢ *💎Iron* : _${user.iron}_
+▢ *💎Money* : _${user.money}_
 ▢ *⬆️XP* : _Total ${user.exp}_
 └──────────────
 
 *NOTE :* 
 You can buy 💎 diamonds using the commands*
-❏ *${usedPrefix}buy <amount>
-❏ *${usedPrefix}buyall*`, m, { mentions: [who] })
+❏ *${usedPrefix}todiamond* <amount>
+❏ *${usedPrefix}todiamondall*`, m, { mentions: [who] })
 }
 handler.help = ['balance']
 handler.tags = ['econ']
